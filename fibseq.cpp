@@ -2,16 +2,16 @@
 
 using namespace std;
 
-int factorial(int n){
+int feb(int n){
     if(n<=1){
         return n;
     }
-    return factorial(n-1)+ factorial(n-2);
+    return feb(n-1)+ feb(n-2);
 }
 int main(){
 
 
-    std::cout<<factorial(5)<<std::endl;
+    std::cout<<feb(5)<<std::endl;
     return 0;
 }
 
